@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-//import background from './background.jpg'
 
 export default function HomePage(){
 
@@ -18,7 +17,7 @@ return(
         </ul>
     </nav>
     <section>
-    <h2>Test</h2>
+    <h2>Realize that your degree is not as far away as you think</h2>
     </section>
     </body>
     </div>

@@ -80,7 +80,62 @@ nav a {
   padding:7px 10px;
 }
 section{
-  background: url('background.jpg') no-repeat;
+  font-family: montserrat;
+  background: url('./images/background.jpg') no-repeat;
   background-size: cover;
   height: calc(100vh - 80px);
+  color: white;
+  text-align: center;
+  padding-top: 10%;
+}
+.loginTitle, .signupTitle{
+  font-size: 50px;
+}
+.Login, .Account, .About, .HomePage, .NotFound, .SignUp, .Contact{
+  text-align: center;
+}
+
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+  z-index: 10; 
+}
+.dropdown_button{
+  display: inline-block;
+  padding: 10px;
+  background: #323b40;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+.dropdown_button:hover{
+  background: #222;
+  display: inline-block;
+}
+.dropdown_menu{
+  position: absolute;
+  display: none;
+  top: 100%;
+  left: 0;
+  min-width: 200px;
+  background: white;
+  color: #323b40;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3)
+}
+.dropdown:hover .dropdown_menu{
+  display: block;
+}
+.dropdown_menu a{
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  border: none;
+}
+.dropdown_menu a:hover{
+  background: #f0f0f0;
+  color: #323b40;
+}
+.submit{
+  color:#323b40;
 }
